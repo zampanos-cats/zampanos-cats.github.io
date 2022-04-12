@@ -4,7 +4,7 @@ skin: "/assets/css/skins/custom.scss"
 locale: en-US
 title: "Zampano's Courtyard"
 description: "Devblog &co."
-baseurl: "/"
+baseurl: ""
 url: "https://zampanos-cats.github.io/"
 
 # Build settings
