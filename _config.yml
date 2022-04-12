@@ -1,1 +1,49 @@
+# General Site Settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
+skin: "assets/css/skins/custom.scss"
+locale: en-US
+title: "Zampano's Courtyard"
+description: "Devblog &co."
+baseurl: "/"
+url: "https://zampanos-cats.github.io/"
+
+# Build settings
+markdown: kramdown
+feed:
+  path: atom.xml
+  
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search_full_content: true
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
+# Site Author
+author:
+  name: Zampanò
+  picture:
+  email: zampano@tilde.team
+  links:
+    - title: Personal Blog
+      url: https://write.as/zampano
+      icon: fab fa-w
+      
+# Footer
+footer_links:
+    - title: Personal Blog
+      url: https://write.as/zampano
+      icon: fab fa-w
