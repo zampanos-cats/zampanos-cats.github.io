@@ -1,7 +1,29 @@
 # General Site Settings
 remote_theme: "rohanchandra/type-theme"
-locale: en-US
-title: "Zampano's Courtyard"
-description: "Devblog &co."
 baseurl: ""
 url: "https://zampanos-cats.github.io/"
+
+theme_settings:
+  title: "Zampano's Courtyard"
+  description: "Devblog &co."
+  header_text: >
+    <p>Development blog and project pages.  I'm an amateur developer, currently focusing on vanilla web front-end and some offline developments in Go.</p>
+  footer_text: >
+    <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a>, theme based on <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>.</p>
+
+  rss: true
+  email_address: "zampano@tilde.team"
+  github: "https://zampanos-cats.github.io"
+  
+  katex: false
+  search: true
+  
+paginate: 5
+paginate_path: "blog/page:num"
+
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate]
