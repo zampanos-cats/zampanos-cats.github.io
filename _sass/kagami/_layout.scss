@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  background-color: $background-color;
   min-height: 100%;
   width: 100%;
   overflow: hidden; // fixes margin-collapsing of body
